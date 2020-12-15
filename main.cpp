@@ -6,23 +6,8 @@ using namespace std;
 int main()
 {
     char c;
-    bool flag=true;
-    while(c=getchar(),c!='/n'){
-        if(c=='\"'){
-            if(flag==true){
-            putchar('\`');
-            putchar('\`');
-         }
-           else{
-            putchar('\'');
-            putchar('\'');
-          }
-     flag==false;
-    }
-    else{
+    while(c=getchar(),c!=EOF){
         putchar(c);
-    }
-
     }
     return 0;
 }
