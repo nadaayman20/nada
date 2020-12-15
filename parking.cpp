@@ -5,14 +5,14 @@ using namespace std;
 
 int main()
 {
-    int n,a,b,i,j,max,min;
+    int n,a,b,max,min;
     while(scanf("%d",&n)==1)
     {
-        for(i=1;i<=n;i++)
+        for(int i=1;i<=n;i++)
         {
             scanf("%d",&a);
             max=0,min=100;
-            for(j=1;j<=a;j++)
+            for(int j=1;j<=a;j++)
             {
                 scanf("%d",&b);
                 if(max<b)
