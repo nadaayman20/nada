@@ -6,8 +6,8 @@ using namespace std;
 int main()
 {
     int n,a,b,max,min;
-    while(scanf("%d",&n)==1)
-    {
+    (scanf("%d",&n);
+     while(n!=0){
         for(int i=1;i<=n;i++)
         {
             scanf("%d",&a);
